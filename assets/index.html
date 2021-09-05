@@ -4,10 +4,110 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" href="img/svg/logo.svg" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="" />
     <title>Furniture</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <include src="assets/templates/header.html"></include>
+      <main class="main">
+        <section class="banner-wrapper">
+          <div class="container">
+            <div class="content-wrapper">
+              <h2 class="title">Новинка!</h2>
+              <p class="name-product">Ліжко Ornella</p>
+              <p class="short-description">Це новий рівень комфортного сну</p>
+              <a class="button more-button" href="javascript:void(0)">Детальніше</a>
+              <div class="slider-nav">
+                <p class="number"><span class="number__big">01</span>/ 04</p>
+                <div class="arrow-wrapper">
+                  <div class="arrow-box arrow-box__prev">
+                    <svg class="arrow__prev">
+                      <use href="./img/svg/sprite.svg#icon-shevron"></use>
+                    </svg>
+                  </div>
+                  <div class="arrow-box arrow-box__next">
+                    <svg class="arrow__next">
+                      <use href="./img/svg/sprite.svg#icon-shevron"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="our-advantages">
+          <div class="container">
+            <h2 class="section-title">Наші переваги</h2>
+            <div class="slider-advantages">
+              <div class="slider-item slider-item__first">
+                <div class="slider-item__description">
+                  <h3 class="title">Меблі преміум класу</h3>
+                  <p class="short-description">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                </div>
+              </div>
+              <div class="slider-item slider-item__second">
+                <div class="slider-item__description">
+                  <h3 class="title">Надійність</h3>
+                  <p class="short-description">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                </div>
+              </div>
+              <div class="slider-item slider-item__third">
+                <div class="slider-item__description">
+                  <h3 class="title">Безкоштовна доставка</h3>
+                  <p class="short-description">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                </div>
+              </div>
+              <div class="slider-item slider-item__first">
+                <div class="slider-item__description">
+                  <h3 class="title">Меблі преміум класу</h3>
+                  <p class="short-description">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                </div>
+              </div>
+              <div class="slider-item slider-item__second">
+                <div class="slider-item__description">
+                  <h3 class="title">Меблі преміум класу</h3>
+                  <p class="short-description">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                </div>
+              </div>
+              <div class="slider-item slider-item__third">
+                <div class="slider-item__description">
+                  <h3 class="title">Безкоштовна доставка</h3>
+                  <p class="short-description">За 14 років на ринку меблів для дому ми стали надійними партнерами на ринку Вінницької області та України</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="product-categories">
+          <div class="container">
+            <h2 class="section-title">Категорії товарів</h2>
+          </div>
+        </section>
+        <section class="about">
+          <div class="container">
+            <h2 class="section-title">Про нас</h2>
+          </div>
+        </section>
+        <section class="questions-left">
+          <div class="container">
+            <h2 class="section-title section-title__questions">Залишились питання?</h2>
+          </div>
+        </section>
+      </main>
+      <include src="assets/templates/footer.html"></include>
+    </div>
+    <!-- preloader -->
+    <!-- script -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/preloader.min.js" type="module"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/header-burger.min.js"></script>
+    <script src="js/slider-advantages.min.js"></script>
+  </body>
 </html>

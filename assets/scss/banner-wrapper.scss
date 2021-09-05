@@ -1,0 +1,129 @@
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  background-image: url(../img/banner__big.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 90vh;
+  .content-wrapper {
+    position: relative;
+    background-color: #fff;
+    width: fit-content;
+    padding: 10px 10px 30px 25px;
+    text-align: center;
+    &::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 15px;
+      background-color: var(--accent-color);
+      transform: translate(-50%, 0);
+      left: 7px;
+      top: 0;
+    }
+    .title {
+      color: #1e2e36;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+    .name-product {
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .short-description {
+      font-weight: 400;
+      font-size: 20px;
+      width: 160px;
+      margin: 0 auto;
+      margin-bottom: 15px;
+    }
+    .more-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-width: 200px;
+      min-height: 51px;
+      padding: 14px 46px;
+      background: #44c697;
+      border-radius: 3px;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 1.25;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 30px;
+      &:hover,
+      &:focus {
+        background: #24946b;
+      }
+    }
+    .slider-nav {
+      .number {
+        color: #1e2e36;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.25;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+        &__big {
+          font-size: 36px;
+        }
+      }
+      .arrow-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .arrow-box {
+          width: 30px;
+          height: 30px;
+          background-color: #fff;
+          border: 1px solid #1e2e36;
+          border-radius: 50%;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: all 0.6s;
+          cursor: pointer;
+          &__prev {
+            margin-right: 4px;
+            position: relative;
+            .arrow__prev {
+              width: 16px;
+              height: 9px;
+              transform: rotate(90deg);
+            }
+            &:hover,
+            &:focus {
+              border: none;
+              background-color: #000;
+              .arrow__prev {
+                fill: #fff;
+              }
+            }
+          }
+          &__next {
+            margin-left: 4px;
+            position: relative;
+            .arrow__next {
+              width: 16px;
+              height: 9px;
+              transform: rotate(-90deg);
+            }
+            &:hover,
+            &:focus {
+              border: none;
+              background-color: #000;
+              .arrow__next {
+                fill: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
