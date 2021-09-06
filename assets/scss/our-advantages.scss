@@ -115,6 +115,11 @@
     .slider-advantages {
       .slider-item {
         min-height: 350px;
+        &__description {
+          .title {
+            font-size: 24px;
+          }
+        }
       }
       .slick-arrow {
         &.slick-prev {
@@ -122,6 +127,21 @@
         }
         &.slick-next {
           right: 30px;
+        }
+      }
+    }
+  }
+  @media (min-width: 1300px) {
+    .slider-advantages {
+      .slider-item {
+        &__description {
+          .title {
+            font-size: 36px;
+          }
+          .short-description {
+            font-size: 18px;
+            max-width: 550px;
+          }
         }
       }
     }
