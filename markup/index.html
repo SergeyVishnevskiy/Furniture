@@ -13,55 +13,194 @@
   <body>
     <div class="wrapper">
       <header class="header">
-  <div class="container">
-    <div class="header__mobile">
-      <div class="logo-wrapper">
-        <a href="index.html" class="logo-link">
-          <svg class="logo-icon">
-            <use href="./img/svg/sprite.svg#icon-logo__new"></use>
-          </svg>
-          <h1 class="logo-title">Furniture.test</h1>
-        </a>
-      </div>
-      <div class="nav-wrapper__mob">
-        <a href="javascript:void(0)" class="basket-link">
-          <svg class="basket-icon">
-            <use href="./img/svg/sprite.svg#icon-shopping-basket"></use>
-          </svg>
-        </a>
-        <div class="header-burger">
-          <span></span>
+  <div class="header__mobile">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo-wrapper">
+          <a href="index.html" class="logo-link">
+            <svg class="logo-icon">
+              <use href="./img/svg/sprite.svg#icon-logo__new"></use>
+            </svg>
+            <h1 class="logo-title">Furniture.test</h1>
+          </a>
         </div>
-        <nav class="header-menu">
-          <ul class="header-list">
-            <li class="header-list_item"><a href="javascript:void(0)" class="item-link active">Головна</a></li>
-            <li class="header-list_item categories-list__toggler">
-              <a href="javascript:void(0)" class="item-link">Категорії
-                <svg class="arrow">
+        <div class="nav-wrapper__mob">
+          <a href="javascript:void(0)" class="basket-link">
+            <svg class="basket-icon">
+              <use href="./img/svg/sprite.svg#icon-shopping-basket"></use>
+            </svg>
+          </a>
+          <div class="header-burger">
+            <span></span>
+          </div>
+          <nav class="header-menu">
+            <ul class="header-list">
+              <li class="header-list_item"><a href="javascript:void(0)" class="item-link active">Головна</a></li>
+              <li class="header-list_item categories-list__toggler">
+                <a href="javascript:void(0)" class="item-link">Категорії
+                  <svg class="arrow">
+                    <use href="./img/svg/sprite.svg#icon-shevron"></use>
+                  </svg>
+                </a>
+                <ul class="categories-list">
+                  <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">Дивани</a></li>
+                  <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">ліжка</a></li>
+                  <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">Крісла</a></li>
+                  <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">комоди</a></li>
+                  <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">шафи</a></li>
+                  <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">Кухня</a></li>
+                </ul>
+              </li>
+              <li class="header-list_item"><a href="javascript:void(0)" class="item-link">Акції</a></li>
+              <li class="header-list_item"><a href="javascript:void(0)" class="item-link">Доставка та оплата</a></li>
+              <li class="header-list_item"><a href="javascript:void(0)" class="item-link">про нас</a></li>
+              <li class="header-list_item"><a href="javascript:void(0)" class="item-link">контакти</a></li>
+            </ul>
+            <div class="button-wrapper">
+              <button class="button order-call">Замовити дзвінок</button>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header__decktop">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top__wrapper">
+          <div class="social-wrapper">
+            <h6 class="social-title">Ми в соціальних мережах:</h6>
+            <ul class="social-list">
+              <li class="social-list__item">
+                <a href="https://telegram.org/" target="_blank" class="social-link">
+                  <svg class="icon-social">
+                    <use href="./img/svg/sprite.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="https://www.facebook.com/" target="_blank" class="social-link">
+                  <svg class="icon-social">
+                    <use href="./img/svg/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a href="https://instagram.org/" target="_blank" class="social-link">
+                  <svg class="icon-social">
+                    <use href="./img/svg/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="phone-wrapper">
+            <div class="smartphone"></div>
+            <div class="phone-inner">
+              <a href="tel:380991112233" class="contacts contacts__first">(099) 111 22 33
+                <svg class="arrow__phone">
                   <use href="./img/svg/sprite.svg#icon-shevron"></use>
                 </svg>
               </a>
-              <ul class="categories-list">
-                <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">Дивани</a></li>
-                <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">ліжка</a></li>
-                <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">Крісла</a></li>
-                <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">комоди</a></li>
-                <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">шафи</a></li>
-                <li class="categories-list__item"><a href="javascript:void(0)" class="item-link">Кухня</a></li>
+              <ul class="phone-list">
+                <li class="phone-list__item"><a href="tel:380991112233" class="contacts">(099) 222 33 44</a></li>
+                <li class="phone-list__item"><a href="tel:380992223344" class="contacts">(099) 333 44 55</a></li>
               </ul>
-            </li>
-            <li class="header-list_item"><a href="javascript:void(0)" class="item-link">Акції</a></li>
-            <li class="header-list_item"><a href="javascript:void(0)" class="item-link">Доставка та оплата</a></li>
-            <li class="header-list_item"><a href="javascript:void(0)" class="item-link">про нас</a></li>
-            <li class="header-list_item"><a href="javascript:void(0)" class="item-link">контакти</a></li>
-          </ul>
-          <div class="button-wrapper">
-            <button class="button order-call">Замовити дзвінок</button>
+            </div>
           </div>
-        </nav>
+          <nav class="nav">
+            <ul class="list">
+              <li class="list-item"><a href="javascript:void(0)" class="list-item__link active">Головна</a></li>
+              <li class="list-item"><a href="javascript:void(0)" class="list-item__link">АкцІї</a></li>
+              <li class="list-item"><a href="javascript:void(0)" class="list-item__link">Доставка та оплата</a></li>
+              <li class="list-item"><a href="javascript:void(0)" class="list-item__link">про нас</a></li>
+              <li class="list-item"><a href="javascript:void(0)" class="list-item__link">контакти</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
-    <div class="header__decktop"></div>
+    <div class="header-bottom">
+      <div class="container">
+        <div class="categories-list">
+          <ul class="list">
+            <li class="list-item categories-item">
+              <a href="javascript:void(0)" class="categories__link">Дивани
+                <svg class="arrow__categories">
+                  <use href="./img/svg/sprite.svg#icon-shevron"></use></svg></a>
+              <ul class="categoria-list">
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Дивани 1</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Дивани 2</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Дивани 3</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Дивани 4</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Дивани 5</a></li>
+              </ul>
+            </li>
+            <li class="list-item categories-item">
+              <a href="javascript:void(0)" class="categories__link">ліжка <svg class="arrow__categories"><use href="./img/svg/sprite.svg#icon-shevron"></use></svg></a>
+              <ul class="categoria-list">
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">ліжка 1</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">ліжка 2</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">ліжка 3</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">ліжка 4</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">ліжка 5</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">ліжка 6</a></li>
+              </ul>
+            </li>
+            <li class="list-item categories-item">
+              <a href="javascript:void(0)" class="categories__link">Крісла <svg class="arrow__categories"><use href="./img/svg/sprite.svg#icon-shevron"></use></svg></a>
+              <ul class="categoria-list">
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Крісла 1</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Крісла 2</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Крісла 3</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Крісла 4</a></li>
+              </ul>
+            </li>
+            <li class="list-item categories-item">
+              <a href="javascript:void(0)" class="categories__link">комоди <svg class="arrow__categories"><use href="./img/svg/sprite.svg#icon-shevron"></use></svg></a>
+              <ul class="categoria-list">
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">комоди 1</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">комоди 2</a></li>
+              </ul>
+            </li>
+            <li class="list-item categories-item">
+              <a href="javascript:void(0)" class="categories__link">шафи <svg class="arrow__categories"><use href="./img/svg/sprite.svg#icon-shevron"></use></svg></a>
+              <ul class="categoria-list">
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">шафи 1</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">шафи 2</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">шафи 3</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">шафи 4</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">шафи 5</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">шафи 6</a></li>
+              </ul>
+            </li>
+            <li class="list-item categories-item">
+              <a href="javascript:void(0)" class="categories__link">Кухня <svg class="arrow__categories"><use href="./img/svg/sprite.svg#icon-shevron"></use></svg></a>
+              <ul class="categoria-list">
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 1</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 2</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 3</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 4</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 5</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 6</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 7</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 8</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 9</a></li>
+                <li class="categoria-list__item"><a href="javascript:void(0)" class="categoria__link">Кухня 10</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="logo-wrapper">
+          <a href="index.html" class="logo-link">
+            <svg class="logo-icon">
+              <use href="./img/svg/sprite.svg#icon-logo__new"></use>
+            </svg>
+            <h1 class="logo-title">Furniture.test</h1>
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
 

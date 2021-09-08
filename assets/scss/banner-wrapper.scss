@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  height: 90vh;
+  height: 92vh;
   .content-wrapper {
     position: relative;
     background-color: #fff;
@@ -124,6 +124,39 @@
           }
         }
       }
+    }
+  }
+  @media (min-width: 1024px) {
+    height: 82.6vh;
+    .content-wrapper {
+      padding: 50px;
+      .title {
+        font-size: 64px;
+        line-height: 1;
+        margin-bottom: 50px;
+      }
+      .name-product {
+        font-size: 36px;
+      }
+      .short-description {
+        font-size: 36px;
+        width: 350px;
+        margin-bottom: 30px;
+      }
+      .more-button {
+        margin: 0 auto 30px;
+        max-width: fit-content;
+      }
+    }
+  }
+  @media (min-height: 800px) {
+    .content-wrapper {
+      padding: 75px;
+    }
+  }
+  @media (min-height: 900px) {
+    .content-wrapper {
+      padding: 100px 75px;
     }
   }
 }
