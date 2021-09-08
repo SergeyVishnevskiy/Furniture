@@ -99,8 +99,8 @@ ol li {
 }
 .button {
   min-width: 150px;
-  min-height: 51px;
-  background: #44c697;
+  // min-height: 51px;
+  background: var(--accent-color);
   border-radius: 3px;
   outline: none;
   border: none;

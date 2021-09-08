@@ -109,7 +109,7 @@
         width: 100%;
         height: 100%;
         padding: 60px 0 20px;
-        z-index: 10;
+        z-index: 15;
         transition: all 0.5s ease 0s;
         .header-list {
           border-top: 2px solid var(--accent-color);
@@ -356,9 +356,14 @@
         display: flex;
         align-items: center;
         padding: 15px 0;
+        &__wrapper {
+          display: flex;
+          align-items: center;
+        }
         .categories-list {
           display: flex;
           align-items: center;
+          margin-right: 30px;
           .list {
             display: flex;
             align-items: center;
@@ -434,6 +439,54 @@
         .logo-wrapper {
           display: flex;
           align-items: center;
+          .logo-link {
+            display: flex;
+            align-items: center;
+            .logo-icon {
+              // width: 125px;
+              // height: 75px;
+              // size-35%
+              width: 43.75px;
+              height: 26.25px;
+              display: inline-block;
+            }
+            .logo-title {
+              font-weight: 700;
+              font-size: 28px;
+              margin-left: 5px;
+              &::first-letter {
+                color: var(--accent-color);
+              }
+            }
+          }
+        }
+        .right-side {
+          display: flex;
+          align-items: center;
+          margin-left: auto;
+          .basket-link {
+            display: flex;
+            align-items: center;
+            color: #1e2e36;
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 30px;
+            .basket-icon {
+              width: 30px;
+              height: 30px;
+              margin-right: 5px;
+            }
+            &:hover,
+            &:focus {
+              color: var(--accent-color);
+              .basket-icon {
+                fill: var(--accent-color);
+              }
+            }
+          }
+          .order-call {
+            height: 30px;
+          }
         }
       }
     }
@@ -476,6 +529,7 @@
       }
       .header-bottom {
         .categories-list {
+          margin-right: 50px;
           .list {
             &-item {
               &:not(:last-child) {
@@ -525,6 +579,11 @@
             }
           }
         }
+        .right-side {
+          .order-call {
+            min-width: 278px;
+          }
+        }
       }
     }
   }
@@ -549,6 +608,92 @@
                 }
               }
             }
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1900px) {
+    .header__decktop {
+      .header-bottom {
+        &__wrapper {
+          justify-content: space-between;
+        }
+        .categories-list {
+          width: 40%;
+          margin: 0;
+        }
+        .right-side {
+          justify-content: flex-end;
+          width: 40%;
+          margin: 0;
+        }
+      }
+    }
+  }
+  @media (min-height: 800px) {
+    .header__decktop {
+      .header-bottom {
+        .logo-wrapper {
+          .logo-link {
+            .logo-icon {
+              width: 78.75px;
+              height: 47.25px;
+            }
+            .logo-title {
+              font-size: 34px;
+            }
+          }
+        }
+        .right-side {
+          .order-call {
+            height: 40px;
+          }
+        }
+      }
+    }
+  }
+  @media (min-height: 900px) {
+    .header__decktop {
+      .header-bottom {
+        padding: 10px 0;
+        .logo-wrapper {
+          .logo-link {
+            .logo-icon {
+              width: 125px;
+              height: 75px;
+            }
+            .logo-title {
+              font-size: 36px;
+            }
+          }
+        }
+        .right-side {
+          .order-call {
+            height: 51px;
+          }
+        }
+      }
+    }
+  }
+  @media (min-height: 1000px) {
+    .header__decktop {
+      .header-bottom {
+        padding: 10px 0;
+        .logo-wrapper {
+          .logo-link {
+            .logo-icon {
+              width: 155px;
+              height: 105px;
+            }
+            .logo-title {
+              font-size: 56px;
+            }
+          }
+        }
+        .right-side {
+          .order-call {
+            height: 51px;
           }
         }
       }

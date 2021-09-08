@@ -3,6 +3,11 @@ $(function () {
     $('.header-burger,.header-menu').toggleClass('active');
     $('body').toggleClass('lock');
   });
+  $('.close-menu').click(function (event) {
+    $('.header-burger,.header-menu').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
+
   $('.item-link').on('click', function () {
     $('.item-link').removeClass('active');
     $(this).addClass('active');
