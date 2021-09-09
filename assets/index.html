@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ukr">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.min.css" data-inprogress="" />
     <title>Furniture</title>
   </head>
-  <body>
+  <body id="up-top">
     <div class="wrapper">
       <include src="assets/templates/header.html"></include>
       <main class="main">
@@ -149,6 +149,670 @@
                 </li>
               </ul>
             </div>
+            <div class="categories-tabs">
+              <div class="tabs">
+                <div class="tabs-header">
+                  <div class="tabs-triggers">
+                    <a class="tabs-triggers__item tabs-triggers__item-living-room" href="#living-room">
+                      <svg class="categories-icon icon-living-room">
+                        <use href="./img/svg/sprite.svg#icon-living-room"></use>
+                      </svg>
+                      <p class="categories-title">Дивани</p>
+                    </a>
+                    <a class="tabs-triggers__item tabs-triggers__item-bedroom tabs-triggers__item-active" href="#bedroom">
+                      <svg class="categories-icon icon-bedroom">
+                        <use href="./img/svg/sprite.svg#icon-bedroom"></use>
+                      </svg>
+                      <p class="categories-title">Ліжка</p>
+                    </a>
+                    <a class="tabs-triggers__item tabs-triggers__item-armchair" href="#armchair">
+                      <svg class="categories-icon icon-armchair">
+                        <use href="./img/svg/sprite.svg#icon-armchair"></use>
+                      </svg>
+                      <p class="categories-title">Крісла</p>
+                    </a>
+                    <a class="tabs-triggers__item tabs-triggers__item-wardrobe" href="#wardrobe">
+                      <svg class="categories-icon icon-wardrobe">
+                        <use href="./img/svg/sprite.svg#icon-wardrobe"></use>
+                      </svg>
+                      <p class="categories-title">комоди</p>
+                    </a>
+                    <a class="tabs-triggers__item tabs-triggers__item-wardrobe__big" href="#wardrobe__big">
+                      <svg class="categories-icon icon-wardrobe__big">
+                        <use href="./img/svg/sprite.svg#icon-wardrobe__big"></use>
+                      </svg>
+                      <p class="categories-title">Шафи</p>
+                    </a>
+                    <a class="tabs-triggers__item tabs-triggers__item-kitchen" href="#kitchen">
+                      <svg class="categories-icon icon-kitchen">
+                        <use href="./img/svg/sprite.svg#icon-kitchen"></use>
+                      </svg>
+                      <p class="categories-title">Кухня</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="tabs-content">
+                  <div id="living-room" class="tabs-content__item tabs-content__item-living-room">
+                    <ul class="products-list">
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__1.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Дивани Рамона</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__2.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Дивани Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__3.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Дивани Венеція люкс</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__4.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Дивани Імперія</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__5.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Дивани Адель</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__6.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Дивани Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="button button__catalog">В каталог</a>
+                  </div>
+                  <div id="bedroom" class="tabs-content__item tabs-content__item-bedroom tabs-content__item-active">
+                    <ul class="products-list">
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__1.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Ліжко Рамона</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__2.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Ліжко Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__3.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Ліжко Венеція люкс</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__4.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Ліжко Імперія</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__5.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Ліжко Адель</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__6.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Ліжко Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="button button__catalog">В каталог</a>
+                  </div>
+                  <div id="armchair" class="tabs-content__item tabs-content__item-armchair">
+                    <ul class="products-list">
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__1.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Крісла Рамона</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__2.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Крісла Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__3.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Крісла Венеція люкс</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__4.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Крісла Імперія</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__5.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Крісла Адель</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__6.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Крісла Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="button button__catalog">В каталог</a>
+                  </div>
+                  <div id="wardrobe" class="tabs-content__item tabs-content__item-wardrobe">
+                    <ul class="products-list">
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__1.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">комоди Рамона</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__2.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">комоди Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__3.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">комоди Венеція люкс</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__4.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">комоди Імперія</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__5.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">комоди Адель</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__6.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">комоди Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="button button__catalog">В каталог</a>
+                  </div>
+                  <div id="wardrobe__big" class="tabs-content__item tabs-content__item-wardrobe__big">
+                    <ul class="products-list">
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__1.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Шафи Рамона</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__2.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Шафи Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__3.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Шафи Венеція люкс</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__4.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Шафи Імперія</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__5.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Шафи Адель</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__6.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Шафи Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="button button__catalog">В каталог</a>
+                  </div>
+                  <div id="kitchen" class="tabs-content__item tabs-content__item-kitchen">
+                    <ul class="products-list">
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__1.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Кухня Рамона</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__2.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Кухня Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__3.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Кухня Венеція люкс</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__4.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Кухня Імперія</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price"><span class="price">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__5.jpg" alt="bedroom" />
+                          <div class="short-description">
+                            <h6 class="product-title">Кухня Адель</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="products-item">
+                        <a class="products-card" href="javascript:void(0)">
+                          <img class="products-card__img" src="img/bedroom__6.jpg" alt="bedroom" />
+                          <div class="label-direction">
+                            <ul class="label-list">
+                              <li class="label-item label-item__new">Новинка</li>
+                              <li class="label-item label-item__share">Акція</li>
+                            </ul>
+                          </div>
+                          <div class="short-description">
+                            <h6 class="product-title">Кухня Честер</h6>
+                            <div class="price-wrapper">
+                              <p class="product-price product-price__share">
+                                <span class="price price__share">8 999</span> грн
+                              </p>
+                              <p class="product-price product-price__old"><span class="price price__old">8 999</span> грн</p>
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <a href="javascript:void(0)" class="button button__catalog">В каталог</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section class="about" id="about">
@@ -185,6 +849,38 @@
           <div class="container">
             <h2 class="section-title section-title__questions">Залишились питання?</h2>
           </div>
+          <div class="content-wrapper">
+            <div class="form-wrapper">
+              <h3 class="form-title">Замовте консультацію</h3>
+              <form class="form">
+                <input
+                  class="form-input"
+                  type="text"
+                  id="uname"
+                  name="name"
+                  placeholder="Ім'я"
+                  autocomplete="off"
+                  required
+                  minlength="2"
+                />
+                <input
+                  class="form-input"
+                  type="tel"
+                  placeholder="Номер телефону"
+                  id="tel"
+                  name="tel"
+                  autocomplete="off"
+                  required
+                  min="10"
+                />
+                <button class="form-button button" type="submit">ВІдправити</button>
+              </form>
+              <p class="form-description">
+                Залиште заявку або телефонуйте за номером <a href="tel:380991112233" class="contacts">(099) 111 22 33</a>, і наш
+                менеджер звяжеться з вами для кваліфікованої консультації.
+              </p>
+            </div>
+          </div>
         </section>
       </main>
       <include src="assets/templates/footer.html"></include>
@@ -198,5 +894,6 @@
     <script src="js/script.min.js"></script>
     <script src="js/header-burger.min.js"></script>
     <script src="js/slider-advantages.min.js"></script>
+    <script src="js/tabs.min.js"></script>
   </body>
 </html>

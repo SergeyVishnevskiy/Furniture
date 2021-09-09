@@ -85,4 +85,15 @@
       background: url(../img/about.jpg) 100% center no-repeat;
     }
   }
+  @media (min-width: 2000px) {
+    .content-wrapper {
+      position: relative;
+      background: url(../img/about.jpg) 75% center no-repeat;
+
+      .content {
+        position: absolute;
+        left: 12%;
+      }
+    }
+  }
 }
